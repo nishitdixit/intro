@@ -1,6 +1,6 @@
-# sample
+# Tutorial Project
 
-A new Flutter project.
+This is a very simple and easiest app for the student to get started with.
 
 ## Getting Started
 
