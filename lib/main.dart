@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.black,
         body: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
+                radius: 80.0,
                 backgroundImage: AssetImage('images/nishit.JPG'),
               ),
               Text(
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'Pacifico',
                   fontSize: 60.0,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.italic,
                   letterSpacing: 2.0,
                   color: Colors.white,
                 ),
